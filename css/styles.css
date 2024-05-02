@@ -1,0 +1,167 @@
+/* --------------------------Imports---------------------------- */
+@import url("./reset.css");
+@import url("./header.css");
+
+/* --------------------------Hero----------------------- */
+
+.hero {
+  padding: 350px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.hero-title {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+}
+
+/* --------------------------Teacher----------------------- */
+
+.teacher {
+  padding: 50px 0;
+}
+
+.teacher-title {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  margin-bottom: 30px;
+}
+
+.teacher-img {
+  border-radius: 15px;
+  height: 400px;
+  margin: 0 auto 20px;
+}
+
+.teacher-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0px 4px 16px 0px rgba(0.4, 0, 0.2, 1);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.super-teacher-img {
+  border-radius: 15px;
+  height: 400px;
+  margin: 0 auto 20px;
+}
+
+.super-vorona-img {
+  border-radius: 15px;
+  height: 400px;
+  margin: 0 auto 20px;
+}
+
+/* --------------------------Gallery----------------------- */
+
+.gallery {
+  padding: 50px 0;
+}
+
+.swiper-slide {
+  height: 500px !important;
+}
+
+/* --------------------------Mob-menu----------------------- */
+
+.header-mob {
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+}
+
+.close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.header-mob-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-mob-link {
+  padding: 8px 16px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+
+/* --------------------------Media----------------------- */
+/* --------------------------Tablet----------------------- */
+
+@media screen and (min-width: 768px) {
+  .header-icon {
+    width: 50px;
+  }
+
+  .teacher-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    gap: 24px;
+  }
+  .teacher-img {
+    margin: 0;
+    height: 400px;
+  }
+
+  .teacher-info {
+    box-shadow: none;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .teacher-name {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .teacher-text {
+    font-size: 20px;
+  }
+}
+
+/* --------------------------Desktop----------------------- */
+
+@media screen and (min-width: 1024px) {
+  .header-list {
+    display: flex;
+    gap: 24px;
+  }
+  .header-button {
+    display: none;
+  }
+
+  .header-item-menu {
+    position: absolute;
+    top: 30px;
+    display: none;
+    flex-direction: column;
+    gap: 24px;
+  }
+}

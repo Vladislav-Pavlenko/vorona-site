@@ -1,0 +1,112 @@
+.header {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header-nav {
+  background-color: #ffffffd3;
+  width: 100%;
+  display: flex;
+  padding: 15px 15px;
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+}
+
+.header-logo {
+  font-family: Raleway, sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  gap: 10px;
+}
+
+.header-list {
+  display: none;
+  gap: 24px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-list-item {
+  position: relative;
+}
+
+.header-item-link {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header-item-link-js {
+  background-color: transparent;
+}
+
+.header-menu {
+  position: absolute;
+  padding: 20px;
+  gap: 20px;
+  flex-direction: column;
+  border-radius: 18px;
+  background-color: #eceeed;
+  box-shadow: 0px 4px 16px 0px rgba(0.4, 0, 0.2, 1);
+}
+
+.header-menu-item {
+}
+
+.header-menu-link {
+}
+
+.header-button {
+  border: none;
+  background: transparent;
+  margin-left: auto;
+}
+
+.header-button-icon {
+}
+
+/* --------------------------Hero----------------------- */
+
+.hero {
+  padding: 350px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.hero-title {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+}
+
+/* Media */
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .header-icon {
+    width: 50px;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1024px) {
+  .header-list {
+    display: flex;
+    gap: 24px;
+  }
+  .header-button {
+    display: none;
+  }
+
+  .header-item-menu {
+    position: absolute;
+    top: 30px;
+    display: none;
+    flex-direction: column;
+    gap: 24px;
+  }
+}

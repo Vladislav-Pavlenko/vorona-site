@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Інформатика</title>
+    <!-- Library styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles css -->
+    <link rel="stylesheet" href="../css/informatica.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <nav class="header-nav">
+          <a href="../index.html" class="header-logo"
+            ><img
+              src="../img/logo.png"
+              alt="ВСП ЗФК ТНТУ"
+              width="40"
+              height="40"
+              class="header-icon"
+            />
+            Інформаційні технології
+          </a>
+          <ul class="header-list">
+            <li class="header-list-item">
+              <a href="../partials/informatica.html" class="header-item-link"
+                >Інформатика</a
+              >
+            </li>
+            <li class="header-list-item">
+              <a href="../partials/lmi.html" class="header-item-link">ЛМІ</a>
+            </li>
+            <li class="header-list-item">
+              <a
+                href="../partials/office-software.html"
+                class="header-item-link"
+                >Офісне ПЗ</a
+              >
+            </li>
+            <li class="header-list-item">
+              <!-- More menu -->
+              <button type="button" class="header-item-link-js">
+                Інші дисципліни
+              </button>
+              <ul class="header-menu" style="display: none">
+                <li class="header-menu-item">
+                  <a href="../partials/apk.html" class="header-menu-link"
+                    >Архітектура комп'ютера</a
+                  >
+                </li>
+                <li class="header-menu-item">
+                  <a href="../partials/izvp.html" class="header-menu-link"
+                    >ІЗВП</a
+                  >
+                </li>
+                <li class="header-menu-item">
+                  <a href="../partials/kit.html" class="header-menu-link"
+                    >Методи і засоби КІТ</a
+                  >
+                </li>
+                <li class="header-menu-item">
+                  <a href="../partials/base-ac.html" class="header-menu-link"
+                    >Основи А і АС</a
+                  >
+                </li>
+                <li class="header-menu-item">
+                  <a
+                    href="../partials/tech-practice.html"
+                    class="header-menu-link"
+                    >Технологічна практика</a
+                  >
+                </li>
+                <li class="header-menu-item">
+                  <a href="../partials/info-kit.html" class="header-menu-link"
+                    >Інформатика і КІТ</a
+                  >
+                </li>
+                <li class="header-menu-item">
+                  <a href="../partials/os.html" class="header-menu-link"
+                    >Операційні системи</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <button type="button" class="header-button">
+            <svg class="header-button-icon" width="30" height="30">
+              <use href="../img/icon.svg#icon-menu"></use>
+            </svg>
+          </button>
+        </nav>
+      </div>
+
+      <!-- Mob-menu -->
+      <div class="header-mob" style="display: none">
+        <button class="close-btn" type="button">
+          <svg class="close-btn-icon" width="30" height="30">
+            <use href="../img/icon.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="header-mob-menu">
+          <li class="header-mob-item">
+            <a class="header-mob-link" href="../partials/informatica.html"
+              >Інформатика</a
+            >
+          </li>
+          <li class="header-mob-item">
+            <a class="header-mob-link" href="../partials/lmi.html">ЛМІ</a>
+          </li>
+          <li class="header-mob-item">
+            <a class="header-mob-link" href="../partials/office-software.html"
+              >Офісне ПЗ</a
+            >
+          </li>
+          <li class="header-mob-item">
+            <a class="header-mob-link" href="../partials/apk.html"
+              >Архітектура комп'ютера</a
+            >
+          </li>
+          <li class="header-mob-item">
+            <a class="header-mob-link" href="../partials/izvp.html">ІЗВП</a>
+          </li>
+          <li class="header-mob-item">
+            <a class="header-mob-link" href="../partials/kit.html"
+              >Методи і засоби КІТ</a
+            >
+          </li>
+          <li class="header-mob-item">
+            <a class="header-mob-link" href="../partials/base-ac.html"
+              >Основи А і АС</a
+            >
+          </li>
+          <li class="header-mob-item">
+            <a class="header-mob-link" href="../partials/tech-practice.html"
+              >Технологічна практика</a
+            >
+          </li>
+          <li class="header-mob-item">
+            <a class="header-mob-link" href="../partials/info-kit.html"
+              >Інформатика і КІТ</a
+            >
+          </li>
+          <li class="header-mob-item">
+            <a class="header-mob-link" href="../partials/os.html"
+              >Операційні системи</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!-- Hero -->
+      <section
+        class="hero"
+        style="
+          background-image: url('https://masterzoo.ua/content/uploads/images/blog_sentjabr_rascheska_dlja_kotov.jpg');
+        "
+      >
+        <h1 class="hero-title">Інформатика</h1>
+      </section>
+      <!-- Calendar -->
+      <section class="calendar">
+        <div class="container">
+          <h2 class="calendar-title">Календарне планування</h2>
+          <div class="calendar-container">
+            <a href="../doc/Інформатика.doc" class="calendar-link"
+              ><img src="../img/informatic/document.png" alt="" width="250"
+            /></a>
+            <ol class="calendar-list">
+              <li class="calendar-list-item">
+                Мета та завдання навчальної дисципліни
+              </li>
+              <li class="calendar-list-item">
+                Структура навчальної дисципліни
+              </li>
+              <li class="calendar-list-item">Програма навчальної дисципліни</li>
+              <li class="calendar-list-item">Теми практичних занять</li>
+              <li class="calendar-list-item">Методи навчання</li>
+              <li class="calendar-list-item">Методи контролю</li>
+              <li class="calendar-list-item">Методичне забезпечення</li>
+              <li class="calendar-list-item">Рекомендована література</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <!-- Table -->
+      <section class="table">
+        <div class="container">
+          <table>
+            <thead>
+              <tr>
+                <th>№ з/п</th>
+                <th>Тема</th>
+                <th>Всього</th>
+                <th>Лекції</th>
+                <th>ЛПЗ</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- 1 розділ -->
+              <tr>
+                <td class="table-number"></td>
+                <td>Інформаційні технології в суспільстві</td>
+                <td>8</td>
+                <td>6</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Інструктування з БЖД та правил поведінки під час роботи за
+                  комп’ютером. Інформаційні системи у сучасному суспільстві.
+                </td>
+                <td>8</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number">1.</td>
+                <td>
+                  Інформаційна безпека. Загрози при роботі в Інтернеті і їх
+                  уникнення. Навчання в Інтернеті. Професії майбутнього.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Системи електронного врядування. Штучний інтелект, інтернет
+                  речей, Smart-технології.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Практична робота №1. Інструктаж з БЖД. Робота з навчальними
+                  програмами.
+                </td>
+                <td>2</td>
+                <td>-</td>
+                <td>2</td>
+              </tr>
+              <!-- 2 розділ -->
+              <tr>
+                <td class="table-number"></td>
+                <td>Моделі і моделювання. Аналіз та візуалізація даних</td>
+                <td>14</td>
+                <td>8</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Комп’ютерне моделювання об’єктів і процесів. Основи
+                  статистичного аналізу.
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../js/main.js" type="module" defer></script>
+  </body>
+</html>
